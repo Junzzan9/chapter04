@@ -23,14 +23,14 @@ public class PointList {
 		return "PointList [pArr=" + Arrays.toString(pArr) + ", x=" + x + "]";
 	}
 	
-	public void size() {
-		System.out.println(pArr.length);
+	public int size() {
+		return x;
 	}
 	
 
 
-	public void get() {
-		
+	public Point get(int index) {
+		return pArr[index];	
 	}
 	public void remove() {
 		
