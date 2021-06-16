@@ -34,22 +34,6 @@ public class Point {
 		return "Point [x=" + x + ", y=" + y + "]";
 	}
 
-	@Override
-	public boolean equals(Object obj) {
-		if(this.x==((Point)obj).x&&this.y==((Point)obj).y) {
-			return true;
-		}
-		else {
-			return false;
-		}
-		
-	}
-
-	@Override
-	public int hashCode() {
-		// TODO Auto-generated method stub
-		return super.hashCode();
-	}
 	
 	
 	

@@ -27,8 +27,24 @@ public class PointApp {
 
 		Point p04=new Point(3,6);
 		pSet.add(p04);
-		
 		System.out.println(pSet.toString());
+		
+		
+		System.out.println(p02.equals(p04));
+		System.out.println(p02==p04);//주소값비교
+		
+		System.out.println(p01.equals(p04));
+		System.out.println(p01==p04);//주소값비교
+		
+		System.out.println(p01.hashCode());
+		System.out.println(p02.hashCode());
+		System.out.println(p03.hashCode());
+		System.out.println(p04.hashCode());
+		
+
+		
+		
+		
 	}
 
 }
